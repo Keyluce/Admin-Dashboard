@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+
+.sidebar{
+    background-color: lightblue;
+    grid-row: 1 / 3;
+}
+
+.top-section{
+    background-color: lightcoral;
+    
+    
+   
+}
+.bottom-section{
+    background-color: #BADA55;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+  
+    
+    
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+
+}
+.right-bottom{
+    background-color: blue;
+
+    
+}
+.right-bottom .card{
+    border: 2px solid white;
+}
+.left-bottom{
+    background-color: maroon;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+
+}
+
+.left-bottom .card{
+    border: 2px solid white;
+}
+
+
+
