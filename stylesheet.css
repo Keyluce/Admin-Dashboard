@@ -25,6 +25,7 @@ body{
     grid-template-columns: min-content 20%;
     justify-content: space-between;
     padding-right: 100px;
+    align-items: center;
     
     
     
@@ -64,6 +65,11 @@ input[type="search"]
     border-radius: 20px;
     height: 28px;
     width: 500px;
+    color: black;
+    font-weight: bold;
+}
+input[type="search"]:focus{
+    outline: none;
 }
 .bottom-section{
     background-color: #dde2e5;
