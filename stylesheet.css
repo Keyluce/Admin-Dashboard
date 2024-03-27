@@ -11,7 +11,26 @@ body{
     color: white;
     position: relative;
     box-shadow: 1px 1px 17px -9px black;
+    padding-right: 10px;
 
+    
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+li:hover{
+    background-color: darkblue;
+    border: yellow;
+    border-radius: 10px;
+    
+    position: relative;
+    padding-left: 10px;
+    
+    right: 10px;
+    
+    color: yellow;
+    
     
 }
 @font-face{
@@ -254,7 +273,7 @@ input[type="search"]:focus{
     width: 25px;
     
 }
-.sidebar li{
+.sidebar a{
     margin-top: 15px;
     display: grid;
     grid-template-columns: min-content min-content;
